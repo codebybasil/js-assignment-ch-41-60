@@ -162,3 +162,105 @@
 //     console.log("Remaining Amount:", remain)
 // }
 // moneyCounter(780)
+
+// CHAPTER 43 to 48
+
+// Question 1 - simple alert 
+// function showAlert() {
+//     alert("Hello World!")
+// }
+
+// Question 2 - Phone purchase alert
+// function mobileAlert() {
+//     alert("Thanks for purchasing a phone from us")
+// }
+
+// Question 3 - Students delete 
+// var row1 = document.getElementById("1st-row")
+// var row2 = document.getElementById("2nd-row")
+
+// function deleteRow1() {
+//     1st-row.style.display = "none"
+// }
+// function deleteRow2() {
+//     2nd-row.style.display = "none"
+// }
+
+// Question 4 - Image change 
+// var myImage = document.getElementById("hero--img")
+
+// function changeImage() {
+//     myImage.src = "https://images.unsplash.com/photo-1501785888041-af3ef285b470"
+// }
+// function changeImageBack() {
+//     myImage.src = "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+// }
+
+// Question 5 - Counter badhana aur ghatana
+// var myCounter = document.getElementById("score")
+
+// function increase() {
+//     myCounter.innerText++
+// }
+// function decrease() {
+//     myCounter.innerText--
+// }
+
+// CHAPTER 49 to 52
+
+// Question 1 - Form values cheack
+// var fname = document.getElementById("firstName")
+// var lname = document.getElementById("lastName")
+// var mail = document.getElementById("email")
+// var pass = document.getElementById("password")
+
+// function getValues(i) {
+//     i.preventDefault()
+
+//     if (fname.value.trim() == "" || lname.value.trim() == "" || mail.value.trim() == "" || pass.value.trim() == "") {
+//         alert("Sab fields bharo!")
+//     } else {
+//         console.log("First Name:", fname.value)
+//         console.log("Last Name:", lname.value)
+//         console.log("Email:", mail.value)
+//         console.log("Password:", pass.value)
+//     }
+// }
+
+// Question 2 - Text expand & collapse
+// var myText = document.getElementById("text")
+// var seeMoreBtn = document.getElementById("expand")
+// var shortText = myText.innerText.slice(0, 300)
+// var fullText = myText.innerText
+
+// myText.innerText = shortText
+
+// function showText() {
+//     if (seeMoreBtn.innerText == "... See more") {
+//         myText.innerText = fullText
+//         seeMoreBtn.innerText = "... See less"
+//     } else {
+//         myText.innerText = shortText
+//         seeMoreBtn.innerText = "... See more"
+//     }
+// }
+
+// Question 3 - Student add karna table mein
+// var nameInput = document.getElementById("nameInput")
+// var rollInput = document.getElementById("rollInput")
+
+// var nameShow = document.getElementById("nameShow")
+// var rollShow = document.getElementById("rollShow")
+
+// function addStudent(i) {
+
+//     i.preventDefault()
+
+//     if (nameInput.value.trim() == "" || rollInput.value.trim() == "") {
+//         alert("Naam aur roll number dono bharo!")
+//     } else {
+//         row3.style.display = "block"
+//         nameShow.innerText = nameInput.value
+//         rollShow.innerText = rollInput.value
+//     }
+// }
